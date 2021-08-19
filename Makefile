@@ -8,6 +8,7 @@ pong: $(SRC)
 	@echo "Compiling....."
 	@echo " "
 	$(CC) $(FLAGS) $(INCLUDE) $(SRC)
+	mkdir obj/
 	mv *.o obj
 	@echo " "
 	@echo "Linking....."
