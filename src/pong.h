@@ -16,6 +16,8 @@ public:
     Paddle * player1 = new PlayerLeft;
     Paddle * player2 = new PlayerRight;
     GameState gState;
+    Text scoreLeft;
+    Text scoreRight;
 public:
     Pong();
     ~Pong();
